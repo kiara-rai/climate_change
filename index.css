@@ -1,0 +1,424 @@
+body {
+	background-color: white;
+	width: 100%;
+}
+#navbar {
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	border: 1px solid #000000; 
+	height: 50px;
+	z-index: 4;
+}
+.vertical-menu a:hover {
+	color: blue;
+	text-decoration: none;
+}
+ .vertical-menu a.active {
+  	color: black;
+  	background-color: white;
+  	 font-weight: bold;
+  }
+ .vertical-menu a {
+  	font-size: 30px; color:  black; text-decoration: none; width: 200px; padding: 20px;
+  }
+
+ #home {
+	font-family: 'Keania One';
+	font-size: 40px;
+}
+#menu {
+box-sizing: border-box;
+position: fixed;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #FFFFFF;
+border: 1px solid #000000;
+z-index: -3;
+position: fixed;
+background-color: white;
+width: 100%;
+border: 1px solid #000000;
+height: 70px;
+}
+
+#search {
+box-sizing: border-box;
+height: 30px;
+position: absolute;
+left: 73.82%;
+right: 7.85%;
+top: 33.33%;
+bottom: 25.25%;
+padding-top: 5px;
+padding-left: 10px;
+background: #F1F1F1;
+border: 1px solid #000000;
+border-radius: 53px;
+color: grey;
+}
+
+.index {
+	background-image:  url(download.png)
+}
+
+.slides {
+	width: 100%; height: 100vh; display: flex; color: white; 
+   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: helvetica;
+}
+
+#gaia {
+box-sizing: border-box;
+position: fixed;
+width: 119px;
+height: 115px;
+left: 1250px;
+top: 650px;
+background: url(gaia.webp);
+background-size: cover;
+border: 2px solid #FFFFFF;
+border-radius: 407px;
+z-index: 3;
+}
+
+#chat {
+width: 350px;
+height: 152px;
+position: fixed;
+left: 1050px;
+top: 550px;
+background: url(bubble.png);
+background-size: cover;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+z-index: 4;
+text-align: center;
+color: white;
+font-size: 18px;
+padding-top: 10px;
+font-family: helvetica;
+}
+#maintext {
+	margin-right: 300px;
+	background-size: cover;
+	background-position: center;
+	margin-left: 35px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3) }
+
+.header {
+	font-size: 100px;
+	color: white;
+	font-family: 'Keania One';
+	margin-top: 100px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
+
+}
+
+#definition {
+	color: white;
+	font-size: 20px;
+	font-family: Helvetica
+}
+
+.arrow {
+  display: inline-block;
+  width: 4em;
+  height: 5em;
+  margin-top: -20px;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='m112 184l144 144l144-144'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+.icon {
+  padding-top: 500px; /* Adjust margins as needed */
+}
+
+.foru {
+	margin-left: 100px
+}
+.keania-one-regular {
+  font-family: "Keania One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.foryou {
+  background-color: #D9D9D9;
+  position: absolute;
+	font-weight: 400;
+	font-size: 85px;
+	line-height: 103px;
+	color: black;
+}
+.foru {
+	margin-top:  90px;
+	margin-left: 200px;
+	color: black;
+}
+.news1 {
+	margin-top: 240px;
+  background-size: 20px;
+ position: absolute;
+width: 591px;
+height: 161px;
+left: 191px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 56px;
+padding: 20px;
+}
+
+ /*economic times*/
+
+.text1 {position: absolute;
+width: 288px;
+height: 30px;
+text-align: left;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #000000; }
+
+/* Bangalore experiences its 125th day consecutively with no rain! */
+
+.text2 {position: absolute;
+width: 384px;
+height: 78px;
+text-align: left;
+top: 50px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+}
+
+/* 1 day ago */
+.text3 {
+position: absolute;
+width: 72px;
+height: 12px;
+left: 220px;
+top: 27px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #717171; }
+
+.news2 { 
+ position: absolute;
+width: 591px;
+height: 161px;
+left: 191px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 56px;
+padding: 20px; 
+top:  500px;
+}
+
+.text4{
+	/* heer */
+position: absolute;
+width: 288px;
+height: 28px;
+text-align: left;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #000000;
+}
+
+.text5{
+	/* running a campaign */
+position: absolute;
+width: 522px;
+height: 79px;
+text-align: left;
+top:  50px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+
+.text6{
+/* from your locality, 3h ago */
+
+position: absolute;
+width: 205px;
+height: 12px;
+left: 150px;
+top: 27px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #717171;
+}
+
+#reels {
+margin-left: 400px;
+background-image: url(greta.png);
+background-repeat: no-repeat;
+background-position: center;
+margin-top: 100px;
+width: 350px;
+height: 600px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 56px;
+font-size: 20px;
+color: white;
+text-align: center;
+border: 1px solid #000000
+}
+.left {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M328 112L184 256l144 144'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+position: absolute;
+top: 380px;
+  left: 920px;
+margin-left;20px
+border: 2px solid #FFFFFF;
+}
+
+.right {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='48' d='M328 112L184 256l144 144'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+position: absolute;
+top: 380px;
+  left: 1250px;
+margin-left;20px
+border: 2px solid #FFFFFF;
+transform: rotate(180deg);
+}
+
+.play {
+  display: inline-block;
+ width: 5em; /* Adjust size as needed */
+  height: 5em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23000' d='m96 448l320-192L96 64z'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+position: absolute;
+  left: 73.5%; /* Center align horizontally */
+  top: 44%; /* Center align vertically */
+
+}
+
+.quiz
+{position: absolute;
+top: 1750px;
+justify-content: center;
+}
+
+	/* How Am I Affecting the Planet? */
+#rectangle {
+position: relative;
+width: 1120px;
+height: 330px;
+background: linear-gradient(90deg, #1F8523 0%, #000088 50%, #882323 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 27px;
+margin: auto;
+top: -200px
+}
+#question {
+position: absolute;
+width: 100%;
+height: 74px;
+font-family: 'Keania One';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 78px;
+text-align: center;
+color: #FFFFFF;
+}
+.button {
+position: absolute;
+width: 363px;
+height: 57px;
+left: calc(50% - 181.5px);
+top:  200px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 61px;
+display: flex; 
+justify-content: center; 
+align-items: center;
+}
+#button {
+width: 243px;
+height: 36px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+color: #000000;
+}
+
+#flowchart{
+	background-image: url(flowchart.png);
+	background-size: cover;
+position: absolute;
+width: 1440px;
+height: 2499px;
+top: 2172px;
+margin-left: 0px;
+float: center;
+background-position: center;
+}

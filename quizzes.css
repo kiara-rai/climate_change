@@ -1,0 +1,137 @@
+body {
+	background-color: white;
+}
+#navbar {
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	border: 1px solid #000000; height: 50px;
+	z-index: 4;
+}
+.vertical-menu a:hover {
+	color: blue;
+	text-decoration: none;
+}
+ .vertical-menu a.active {
+  	color: black;
+  	background-color: white;
+  	 font-weight: bold;
+  }
+ .vertical-menu a {
+  	font-size: 30px; color:  black; text-decoration: none; width: 200px; padding: 20px;
+  }
+
+ #home {
+	font-family: 'Keania One';
+	font-size: 40px;
+}
+
+#menu {
+box-sizing: border-box;
+position: fixed;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #FFFFFF;
+border: 1px solid #000000;
+z-index: -1;
+position: fixed;
+background-color: white;
+width: 100%;
+border: 1px solid #000000;
+height: 60px;
+}
+
+#search {
+box-sizing: border-box;
+height: 30px;
+position: absolute;
+left: 73.82%;
+right: 7.85%;
+top: 33.33%;
+bottom: 25.25%;
+padding-top: 5px;
+padding-left: 10px;
+background: #F1F1F1;
+border: 1px solid #000000;
+border-radius: 53px;
+color: grey;
+}
+
+.boxes {
+position: absolute;
+width: 641px;
+height: 400px;
+box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 27px;
+border: 1px solid #000000;
+}
+
+.how{
+left: 53px;
+top: 136px;
+background: url(causes.jpg);
+background-size: cover;
+/* How Am I Affecting the Planet? */
+}
+
+.text {
+position: absolute;
+width: 550px;
+height: 74px;
+left: 50px;
+top: 90px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.knowledge{
+box-sizing: border-box;
+left: 745px;
+top: 136px;
+background: url(test.jpg);
+background-size: cover;
+}
+
+.carbon{
+left: 53px;
+top: 634px;
+background: url(carbonfootprint.png);
+background-size: cover;
+}
+
+.products{
+left: 745px;
+top: 634px;
+background: url(ecofriendly.png);
+background-size: cover;
+}
+
+.take {
+  background-color: white;
+  border: none;
+  color: black;
+font-family: helvetica;
+  padding-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 50px;
+position: absolute;
+width: 177px;
+height: 47px;
+left: 220px;
+top: 300px;
+}
